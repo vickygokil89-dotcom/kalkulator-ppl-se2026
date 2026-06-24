@@ -4490,7 +4490,7 @@ window.simpanSemuaResponden = function() {
 // ===== PWA: SERVICE WORKER =====
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register('./sw.js')
+    navigator.serviceWorker.register('/frontend/public/sw.js')
       .then(reg => console.log('SW registered:', reg.scope))
       .catch(err => console.log('SW error:', err));
   });
