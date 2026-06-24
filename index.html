@@ -4667,7 +4667,7 @@ inputKode.addEventListener('keypress', e => { if (e.key === 'Enter') aktivasiKod
 // Register service worker (offline support + cache)
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/sw.js')
+    navigator.serviceWorker.register('/frontend/public/sw.js')
       .then(reg => console.log('[PWA] SW registered:', reg.scope))
       .catch(err => console.warn('[PWA] SW registration failed:', err));
   });
