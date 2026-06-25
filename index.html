@@ -19,7 +19,6 @@
 <link rel="icon" type="image/png" sizes="192x192" href="frontend/public/icon-192.png">
 <link rel="icon" type="image/png" sizes="512x512" href="frontend/public/icon-512.png">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" defer></script>
-<link rel="manifest" href="manifest.json">
 <link rel="apple-touch-icon" href="icon-192.png">
 <style>
   /* System fonts - 100% offline, no internet needed */
@@ -4490,7 +4489,7 @@ window.simpanSemuaResponden = function() {
 // ===== PWA: SERVICE WORKER =====
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register('frontend/public/sw.js')
+    navigator.serviceWorker.register('./frontend/public/sw.js')
       .then(reg => console.log('SW registered:', reg.scope))
       .catch(err => console.log('SW error:', err));
   });
