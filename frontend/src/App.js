@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import "@/App.css";
 
 /**
- * Aplikasi sebenarnya adalah file HTML statis (Kalkulator Usaha SE2026) yang
+ * Aplikasi sebenarnya adalah file HTML statis (Asisten Petugas SE2026) yang
  * berdiri sendiri & offline-ready. Untuk preview / deployment Emergent kita
  * redirect root URL ke file HTML tersebut yang di-serve dari folder public/.
  *
@@ -27,7 +27,7 @@ function App() {
         background: "#f3f7f1",
       }}
     >
-      Memuat Kalkulator Usaha SE2026…
+      Memuat Asisten Petugas SE2026…
     </div>
   );
 }
