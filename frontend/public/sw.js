@@ -1,7 +1,6 @@
 // Service Worker untuk Asisten Petugas SE2026 — offline-first
 const CACHE_NAME = 'se2026-v2';
 const PRECACHE_URLS = [
-  '/asisten-ppl-se2026/index.html',
   '/asisten-ppl-se2026/frontend/public/se2026-app.html',
   '/asisten-ppl-se2026/frontend/public/manifest.json',
   '/asisten-ppl-se2026/frontend/public/icon-192.png',
