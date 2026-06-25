@@ -3,7 +3,7 @@
   "short_name": "SE2026",
   "description": "Asisten petugas BPS untuk pengisian FASIH Sensus Ekonomi 2026 — Kalkulator, Belanja RT, Aset, Pendapatan",
   "start_url": "/asisten-ppl-se2026/frontend/public/se2026-app.html",
-  "scope": "/asisten-ppl-se2026/",
+  "scope": "/asisten-ppl-se2026/frontend/public/",
   "display": "standalone",
   "orientation": "portrait-primary",
   "background_color": "#1d6b2e",
